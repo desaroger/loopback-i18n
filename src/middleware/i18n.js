@@ -2,7 +2,6 @@
  * Created by desaroger on 14/01/17.
  */
 
-let root = require('app-root-path');
 let i18n = require('i18n');
 
 function i18nMiddlewareFactory(options = {}) {
