@@ -4,7 +4,6 @@
  * Created by desaroger on 14/01/17.
  */
 
-var root = require('app-root-path');
 var i18n = require('i18n');
 
 function i18nMiddlewareFactory() {
