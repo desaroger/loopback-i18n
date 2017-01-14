@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": "rimraf server && mkdir server && ncp src server && babel -d server src",
-    "test": "echo No test command yet"
+    "test": "echo No test command yet."
   },
   "repository": {
     "type": "git",
