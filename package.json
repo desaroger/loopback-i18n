@@ -1,6 +1,6 @@
 {
   "name": "loopback-i18n",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "i18n middleware for loopback",
   "main": "server/middleware/i18n.js",
   "dependencies": {
