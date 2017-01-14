@@ -1,10 +1,9 @@
 {
   "name": "loopback-i18n",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "i18n middleware for loopback",
   "main": "server/middleware/i18n.js",
   "dependencies": {
-    "app-root-path": "^2.0.1",
     "i18n": "^0.8.3"
   },
   "devDependencies": {
@@ -16,7 +15,7 @@
   },
   "scripts": {
     "build": "rimraf server && mkdir server && ncp src server && babel -d server src",
-    "test": "test"
+    "test": "echo No test command yet"
   },
   "repository": {
     "type": "git",
