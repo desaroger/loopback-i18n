@@ -11,7 +11,6 @@ function i18nMiddlewareFactory() {
     var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
 
-    console.log('root directory', root);
     options = Object.assign({
         directory: 'common/i18n',
         locales: ['en']
