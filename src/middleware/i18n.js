@@ -1,0 +1,21 @@
+/**
+ * Created by desaroger on 14/01/17.
+ */
+
+let root = require('app-root-path');
+let i18n = require('i18n');
+
+function i18nMiddlewareFactory(options = {}) {
+
+    console.log('root directory', root);
+    options = Object.assign({
+        directory: '/common/i18n',
+        locales: ['en']
+    }, options);
+
+    i18n.configure(options);
+
+    return i18n.init;
+}
+
+module.exports = i18nMiddlewareFactory;
