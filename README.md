@@ -3,7 +3,7 @@
 
 This is a simple middleware using [mashpie/i18n](https://github.com/mashpie/i18n-node) package. By default is set to accept *en* locale and use the folder *common/i18n*.
 
-Author: Roger Fos Soler (desaroger23@gmail.com, roger@runator.com)
+Author: Roger Fos Soler (desaroger23@gmail.com)
 
 ## Usage
 
