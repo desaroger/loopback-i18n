@@ -13,7 +13,7 @@ function i18nMiddlewareFactory() {
 
     console.log('root directory', root);
     options = Object.assign({
-        directory: '/common/i18n',
+        directory: 'common/i18n',
         locales: ['en']
     }, options);
 
