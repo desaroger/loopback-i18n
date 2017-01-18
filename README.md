@@ -43,5 +43,5 @@ The options are passed directly to the mashpie package. You can see all availabl
 }
 ```
 
-[travis-badge]: https://travis-ci.org/desaroger/loopback-i18nsvg
+[travis-badge]: https://travis-ci.org/desaroger/loopback-i18n.svg
 [travis-url]: https://travis-ci.org/desaroger/loopback-i18n
